@@ -1,0 +1,153 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100%;
+    background-image: url(ing\ 3.jpg);
+    width: 100%;
+
+}
+
+.comainer {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%px;
+    width: 98%;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.box {
+    /* display: flex; */
+    overflow: hidden;
+    border: 1px solid blue;
+    width: 205px;
+    height: 220px;
+    padding: 10px;
+    margin: 7px;
+    background: transparent;
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px 2px rgb(58, 63, 72);
+
+}
+
+
+
+.box h3 {
+    display: flex;
+    margin: auto;
+    margin-left: 40%;
+    color: aqua;
+
+}
+
+.box label {
+    display: flex;
+    margin: auto;
+    margin-left: 36%;
+    color: aqua;
+}
+
+.box input {
+    color: bisque;
+    width: 180px;
+    height: 25px;
+    display: flex;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    border: 1px solid rgb(247, 242, 242);
+    overflow: hidden;
+    background: transparent;
+text-align: center;
+
+
+}
+
+.comainer textarea {
+    color: bisque;
+text-align: center;
+    border-radius: 10px;
+    border: 1px solid rgb(209, 201, 201);
+    display: flex;
+    margin: auto;
+    background: transparent;
+    box-shadow: 0.5px 0.5px 1px 2px rgb(59, 59, 59);
+
+}
+
+.box button {
+    width: 75px;
+    height: 25px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.box button:hover {
+    background-color: rgb(131, 124, 124);
+    color: white;
+    box-shadow: 0.5px 0.5px 1px 2px rgb(133, 113, 165);
+
+}
+
+/* ===================Add notes================== */
+.box2 {
+    color: rgb(250, 88, 8);
+    /* display: flex; */
+    overflow: hidden;
+    border: 1px solid blue;
+    width: 210px;
+    height: 220px;
+    /* height: 100%; */
+    padding: 10px;
+    margin: 7px;
+    background: transparent;
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px 2px rgb(58, 63, 72);
+
+}
+
+#addinput {
+    font-weight: bold;
+    font-size: 17px;
+    padding: 6px 5px;
+    margin: 5px;
+    color: rgb(155, 249, 207);
+    padding: 10px;
+    border-bottom: 1px solid rgb(244, 237, 237);
+
+}
+
+#addtextarea {
+    font-size: 13px;
+    display: table;
+    padding: 6px 5px;
+    margin: 5px;
+    padding-top: 5px;
+    margin-top: 5px;
+    color: white;
+    overflow: scroll;
+    /* border-top: 1px solid black; */
+}
+
+#delit {
+    /* margin-top: 80px; */
+    border: 1px solid rgb(215, 203, 203);
+    border-radius: 10px;
+    margin-left: 70%;
+    height: 20px;
+    width: 50px;
+    font-size: 10px;
+}
+
+#delit:hover {
+    background-color: rgb(48, 74, 74);
+    color: white;
+    cursor: pointer;
+}
